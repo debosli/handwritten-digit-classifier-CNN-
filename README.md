@@ -8,6 +8,11 @@ Aplikasi klasifikasi digit tulisan tangan menggunakan Convolutional Neural Netwo
 
 Gambar digit 0-9 di canvas hitam, model akan langsung memprediksi angka beserta distribusi probabilitas untuk semua kelas.
 
+## Live Demo
+
+Akses aplikasi secara online di:
+https://huggingface.co/spaces/simanisjawa/handwritten-digit-classifier
+
 ---
 
 ## Fitur
@@ -97,5 +102,5 @@ streamlit run app.py
 
 ## Author
 
-**Delino Vicky** — 38250009  
-Universitas Bunda Mulia — Program Studi Kecerdasan Buatan
+**Delino Vicky** - 38250009  
+Universitas Bunda Mulia - Program Studi Kecerdasan Buatan
