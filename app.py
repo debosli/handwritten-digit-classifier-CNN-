@@ -59,7 +59,7 @@ with col2:
         # Top 3 kandidat
         top3_idx = np.argsort(prediction[0])[::-1][:3]
         
-        st.markdown(f"### Predicted digit: {digit}")
+        st.markdown(f"### Angka Terprediksi: {digit}")
         
         # Top 3 boxes
         c1, c2, c3 = st.columns(3)
@@ -70,7 +70,7 @@ with col2:
                 st.metric(label=f"#{i+1}", value=str(idx), delta=f"{pct:.1f}%")
         
 # Probability bar chart semua digit 0-9
-        st.write("Probability distribution:")
+        st.write("Distribusi probabilitas:")
         bars_html = ""
         for i in range(10):
             prob = prediction[0][i] * 100
@@ -84,4 +84,4 @@ with col2:
                 <span style="width:45px; font-size:12px; color:#aaa; text-align:right;">{prob:.1f}%</span>
             </div>
             """
-        st.markdown(bars_html, unsafe_allow_html=True)  # ← indent 8 spasi, di dalam with col2
+        st.markdown(bars_html, unsafe_allow_html=True)
