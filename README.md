@@ -13,6 +13,9 @@ Gambar digit 0-9 di canvas hitam, model akan langsung memprediksi angka beserta 
 Akses aplikasi secara online di:
 https://huggingface.co/spaces/simanisjawa/handwritten-digit-classifier
 
+Demo video:
+https://youtu.be/KaOQ1T08LBk
+
 ---
 
 ## Fitur
